@@ -6,8 +6,8 @@ import (
 )
 
 var (
-	cdnHost string = "104.18.2.2"
-	sniHost string = "meet.google.com"
+	cdnHost string = "43.156.222.203"
+	sniHost string = "live.iflix.com"
 )
 
 type Account struct {

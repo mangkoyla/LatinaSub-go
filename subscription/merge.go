@@ -21,12 +21,9 @@ var (
 	subPattern          *regexp.Regexp = regexp.MustCompile("url=(.+?)(&|$)")
 
 	subList []string = []string{
-		"https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/sub.json",
-		"https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_list.json",
-		"https://raw.githubusercontent.com/mfuu/v2ray/master/list.json",
-		"https://raw.githubusercontent.com/RenaLio/Mux2sub/main/sub_list",
-		"https://raw.githubusercontent.com/RenaLio/Mux2sub/main/urllist",
-		"https://beta-test.cloudaccess.host/mylist.json",
+  "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/sub.json",
+  "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_list.json",
+  "https://raw.githubusercontent.com/mfuu/v2ray/master/list.json"
 	}
 
 	client http.Client = http.Client{
